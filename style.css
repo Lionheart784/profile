@@ -1,0 +1,77 @@
+body {
+background-color: rgb(241, 163, 61);
+font-family: 'Kenia', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+color: black;
+font-size: large;
+}
+
+h1,h2,h3{
+  color: blanchedalmond;
+  font-family: 'Kenia', sans-serif;
+  font-size: larger;
+  line-height:normal
+}
+
+.text-color {
+  color: brown;
+  text-decoration: solid;
+}
+
+a:hover {
+  color: blueviolet;
+
+}
+
+.img-circle {
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: rgb(203, 104, 17);
+  padding: 30px;
+  border: 1px solid rgb(218, 185, 125);
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgb(239, 178, 79);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline i {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* 对于屏幕小于960px的情况，这个CSS将被读取 */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* 对于屏幕小于720px的情况，这个CSS将被读取 */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* 对于屏幕小于540px的情况，这个CSS将被读取 */
+  .container {
+    width: 300px;
+  }
+}
